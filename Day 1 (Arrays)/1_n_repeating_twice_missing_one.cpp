@@ -14,6 +14,8 @@ void findRepeatingMissingNumber(int arr[], int n, int *repeating,  int *missing)
     /*
         By Taking x2 - y2 value and x - y value we can get values of x and y;
         Missing number is x and repeating number is y (occurs twice)
+        Time Complexity - O(n)
+        Space Complexity - O(1)
     */
 
     //x - y = sum upto n integers - sum of all array elements ----- (Equation 1)
